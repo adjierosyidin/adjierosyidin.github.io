@@ -4,5 +4,13 @@
 @theme {
     --font-inter: "Inter";
     --color-primary: oklch(78.9% 0.154 211.53);
+    --color-secondary: oklch(55.4% 0.046 257.417);
     --color-dark: oklch(20.8% 0.042 265.755);
+
+    --breakpoint-2xl: 1320px;
+}
+
+@utility container {
+    padding-inline: 16px;
+    margin-inline: auto;
 }
